@@ -1,14 +1,9 @@
 $TTL 86400
 $ORIGIN ffnord.
-@                                 IN        SOA   vpn0 ffnord.net. 2015101001 1h 15m 1w 1d
+@                                 IN        SOA   vpn0 vpn0 ffnord.net. 2015101001 1h 15m 1w 1d
+                                  IN        NS	  vpn1
 ;
 vpn0                    86400     IN        A     10.187.160.1
                                             AAAA  2a03:2267:4e6f:7264::ff00
-gw00		        86400     IN        CNAME vpn0
-
-@                                 IN        SOA   vpn1 ffnord.net. 2015101001 1h 15m 1w 1d
-;
 vpn1                    86400     IN        A     10.187.136.1
                                             AAAA  2a03:2267:4e6f:7264::ff01
-gw01		        86400     IN        CNAME vpn1
-
