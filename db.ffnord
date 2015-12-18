@@ -4,8 +4,8 @@ $ORIGIN ffnord.
                                   IN        NS	  vpn1
 ;
 vpn0                    86400     IN        A     10.187.160.1
-                                            AAAA  2a03:2267:4e6f:7264::ff00
+                                            AAAA  2a03:2267:4e6f:7264::fd00
 vpn2                    86400     IN        A     10.187.136.1
-                                            AAAA  2a03:2267:4e6f:7264::ff01
+                                            AAAA  2a03:2267:4e6f:7264::fd01
 vpn3                    86400     IN        A     10.187.170.1
-                                            AAAA  2a03:2267:4e6f:7264::ff03
+                                            AAAA  2a03:2267:4e6f:7264::fd03
