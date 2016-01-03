@@ -1,8 +1,16 @@
 $TTL 86400
 $ORIGIN ffnord.
-@                                 IN        SOA   vpn0 vpn0 ffnord.net. 2015101001 1h 15m 1w 1d
-                                  IN        NS	  vpn0
-;
+@                                 IN        SOA   vpn0.ffnord. admin.ffnord.net. (
+                                  2016010301 ; serial
+                                  1h         ; refresh
+                                  15m        ; retry
+                                  1w         ; expire
+                                  1d)        ; ttl
+; Nameserver
+                                  IN        NS    vpn0
+                                  IN        NS    vpn2
+                                  IN        NS    vpn3
+; Hosts
 vpn0                    86400     IN        A     10.187.160.1
                                             AAAA  2a03:2267:4e6f:7264::fd00
 vpn2                    86400     IN        A     10.187.136.1
