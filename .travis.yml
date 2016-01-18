@@ -1,0 +1,9 @@
+language: bash
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install bind9utils
+  - git clone https://github.com/ffnord/nord-zone /tmp/nord-zone
+
+script:
+    - named-checkzone -d -i full ffnord /tmp/nord-zone/db.ffnord 
