@@ -1,0 +1,8 @@
+language: bash
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install bind9utils
+
+script:
+    - named-checkzone -d -i full ffnord db.ffnord 
