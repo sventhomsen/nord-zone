@@ -1,7 +1,7 @@
 $TTL 86400
 $ORIGIN ffnord.
 @                                 IN        SOA   vpn0.ffnord. admin.ffnord.net. (
-                                  2016032401 ; serial
+                                  2016040601 ; serial
                                   1h         ; refresh
                                   15m        ; retry
                                   1w         ; expire
@@ -61,3 +61,9 @@ vpn6                    86400     IN        A     10.187.200.1
                                             AAAA  2a03:2267:4e6f:7264::fd05
 6.update                    86400     IN        A     10.187.200.1
                                             AAAA  2a03:2267:4e6f:7264::fd06
+
+; Community Hosts (see https://wiki.freifunk.net/Freifunk_Nord/IP-Bereiche#Reservierte_Adressen)
+gwinfo			86400	IN	A	10.187.255.60
+					AAAA	2a03:2267:4e6f:7264:ba27:ebff:fe4f:8a02
+
+
