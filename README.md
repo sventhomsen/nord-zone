@@ -7,6 +7,7 @@ The zone ".ffnord" is used as a internal DNS-Zone by https://ffnord.net/
 ## Entries
 
 This zone serves two DNS-records for:
+
 1. our Gateways and infrastructure (update-servers, NTP,...)
 2. static clients 
 
