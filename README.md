@@ -27,7 +27,7 @@ Please increment the serial number of the zone. Please use our format: YYYYMMDDN
 
 Please generate a [pull request](https://help.github.com/articles/using-pull-requests/). 
 
-Pull requests will be accepted after 2 Persons commented with "OK".
+Pull requests will be accepted after 2 gateway admins commented with "OK".
 
 ### Alternative
 
